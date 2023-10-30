@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nosifer&family=Oswald&display=swap");
+
+html,
+body{
+  margin:0;
+  padding: 0;
+  background: rgba(242, 238, 238, 0.968);
+  color: black;
+  /* color:rgb(195, 142, 27);) */
+  border-inline-color: white;
+  font-family: Roboto-apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.image-inverted{
+  filter:invert(100%);
+}
+.navlink{
+  font-weight:  600;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.MuiOutlinedInput-input-root.Mui-focused,
+.MuiOutlinedInput-notchedOutline{
+  border-color: white !important;
+}
+
+.rotate{
+  animation: rotation 8s infinite  linear;
+}
+@keyframes rotation {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(359deg);
+  }
+  
+}
